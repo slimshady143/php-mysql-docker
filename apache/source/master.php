@@ -115,7 +115,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="/Doctor/create.php">Create Doctor</a></li>
-            <li><a href="/Doctor/">All Doctors</a></li>
+            <li><a href="/Doctor/index.php">All Doctors</a></li>
           </ul>
         </li>
       </ul>

@@ -99,7 +99,7 @@
             success: function (result) {
                 if (result['status'] == true) {
                     alert("Successfully Updated Doctor!");
-                    window.location.href = '/medibed/doctor';
+                    window.location.href = '/Doctor/index.php';
                 }
                 else {
                     alert(result['message']);
