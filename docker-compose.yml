@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  db:
+    image: sql-im
+    container_name: sql-run
+  service:
+    build: ./apache 
+    container_name: apache-run
+    volumes:
+      - "./apache/source:/var/www/html"
+    ports:
+      - "8080:80"
