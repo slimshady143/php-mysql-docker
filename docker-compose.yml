@@ -1,11 +1,9 @@
 version: "3.8"
 services:
   db:
-    image: sql-im
-    container_name: sql-run
+    image: hichamrahj/mysql
   service:
-    build: ./apache 
-    container_name: apache-run
+    image: hichamrahj/php-apache
     volumes:
       - "./apache/source:/var/www/html"
     ports:
